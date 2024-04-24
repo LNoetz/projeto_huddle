@@ -1,0 +1,87 @@
+html {
+    background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    height: 100%;
+    color: #fff;
+    margin: 0 auto;
+    max-width: 1280px;
+    font-family: 'Open Sans';
+}
+
+.cabecalho {
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 2%;
+}
+
+.conteudo-principal img {
+    width: 50%;
+}
+
+.conteudo-principal .informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+}
+
+.conteudo-principal .informacoes h1 {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.conteudo-principal .informacoes p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ffffffce;
+}
+
+.conteudo-principal .informacoes .btn-registrar {
+    color: hsl(257, 40%, 49%);
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 15px 55px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 20px #0000004c;
+    transition: 0.2s ease-in;
+}
+
+.conteudo-principal .informacoes .btn-registrar:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.rodape {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 40px;
+    gap: 20px;
+
+}
+
+.rodape a {
+    color: #fff;
+}
+
+.rodape .fab {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 18px;
+    transition: 0.2s ease-in-out;
+}
+
+.rodape i:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}

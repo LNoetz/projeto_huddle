@@ -1,0 +1,41 @@
+/* @media (max-width:1024px) {
+    body {
+        height: auto;
+        overflow-y: auto;
+    }
+} */
+
+@media (max-width: 860px) {
+
+    html {
+        background-size: 200%;
+    }
+
+    .conteudo-principal {
+        flex-direction: column;
+    }
+
+    .conteudo-principal img {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .conteudo-principal .informacoes {
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-principal .informacoes h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .conteudo-principal .informacoes .btn-registrar {
+        padding: 15px 75px;
+    }
+
+    .rodape {
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}
