@@ -49,4 +49,8 @@
         justify-content: center;
         margin: 0;
     }
+
+    .rodape nav .lista-rede-sociais .item-rede-social a .fab {
+        margin: 40px 0;
+    }
 }
